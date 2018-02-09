@@ -1,0 +1,14 @@
+.mainHeader {
+  height: 100px;
+  width: 100%;
+}
+
+header {
+  background: darkred;
+}
+
+.logo {
+  background: lightcoral;
+  width: 300px;
+  height: 100px;
+}
