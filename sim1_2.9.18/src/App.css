@@ -3,12 +3,70 @@
   width: 100%;
 }
 
+.app {
+  height: 140vh;
+}
+
+.mainHeader > div > h1 {
+  color: green;
+  float: right;
+}
+
 header {
-  background: darkred;
+  background: lightcoral;
 }
 
 .logo {
-  background: lightcoral;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 300px;
   height: 100px;
 }
+
+.shelfContainer {
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  border: solid;
+  border-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.shelf {
+  width: 40%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightcyan;
+}
+
+.shelf div {
+  text-align: center;
+}
+
+#a {
+  background: red;
+}
+
+.shelf:nth-child(2) + .shelf {
+  background: purple;
+}
+
+#d {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+
+
+
+
+
+
+

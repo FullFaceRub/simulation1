@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="mainHeader">
           <Link to='/'><div className="logo"></div></Link>
+          <div><h1>Hi Dan</h1></div>
         </header>
         <div className="mainBody">
           {routes}
